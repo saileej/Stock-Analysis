@@ -6,6 +6,7 @@ The purpose of this analysis was to determine which stocks are "green", or worth
 **RESULTS**
 After running the original VBA code for the year 2017, the following information was calculated:
 ![2017 Table](https://user-images.githubusercontent.com/99574730/155021376-5c51d7f9-b725-4cc5-b63e-db69d36bd13f.png)
+
 From this data, it appears that all 12 stocks except for TERP generated positive return on investment.  In essence, 11 stocks would have been wise investments if Steve's aprents had invested in them in 2017.
 
 For the year 2018, the total daily volume and return of the 12 stocks was the following:
