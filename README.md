@@ -6,11 +6,11 @@ The purpose of this analysis was to determine which stocks are "green", or worth
 **RESULTS**
 After running the original VBA code for the year 2017, the following information was calculated:
 ![2017 Table](https://user-images.githubusercontent.com/99574730/155021376-5c51d7f9-b725-4cc5-b63e-db69d36bd13f.png)
-
+From this data, it appears that all 12 stocks except for TERP generated positive return on investment.  In essence, 11 stocks would have been wise investments if Steve's aprents had invested in them in 2017.
 
 For the year 2018, the total daily volume and return of the 12 stocks was the following:
 ![2018 Table](https://user-images.githubusercontent.com/99574730/155021530-ae792679-7308-47be-a4b6-d8b46e8e3681.png)
-
+In 2018, a different general trend was observed.  With the exception of ENPH and RUN, all other stocks generated negative return on investment.  In other words, those who invested in AY, CSIQ, DQ, FSLR, HASI, HKS, SEDG, SPWR, TERP, and VSLR in 2018 lost money.  Therefore, though they may have decided to invest in the above stocks in 2017, Steve's parents should not have invested in them in 2018.
 
 In addition, the following runtimes were given for the **original, nonrefactored** code:
 
@@ -21,6 +21,7 @@ After refactoring the VBA script, the following runtimes were observed:
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/99574730/155034492-c4540cdd-d9d2-41ef-9200-cee7fbb4b290.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/99574730/155034373-5dbc8512-3e7a-43e3-a1d2-5e392d8e24d4.png)
+
 
 As seen above, the refactored code for 2017 data ran roughly 7 times faster than unrefactored code.  In 2018, the refactored code ran roughly 10 times faster.
 
